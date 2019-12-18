@@ -1,0 +1,214 @@
+body {
+  background: #000;
+}
+.st34{opacity:0.3;fill:#137260;}
+  .st35{opacity:0.3;fill:#45B3C5;}
+  .st36{opacity:0.1;fill:#64BFBF;}
+  .st37{opacity:0.1;fill:#2B8383;}
+  .st38{opacity:0.1;fill:#46C1C6;}
+  .st39{opacity:0.1;fill:#206462;}
+  .st40{opacity:0.35;fill:#1A737C;}
+  .st41{opacity:0.1;fill:#2E8887;}
+  .st42{opacity:0.1;fill:#08838B;}
+  .st43{opacity:0.14;fill:#42B0A3;}
+  .st44{opacity:0.3;fill:#128172;}
+  .st45{opacity:0.15;fill:none;stroke:#24898E;stroke-miterlimit:10;}
+  .st46{opacity:0.3;fill:#24898E;}
+  .st47{opacity:0.1;fill:#6CC0BA;}
+  .st48{opacity:0.1;fill:#3896BA;}
+  .st49{opacity:0.3;fill:#086A73;}
+  .st50{opacity:0.15;fill:#0781A0;}
+  .st51{opacity:0.13;fill:none;stroke:#24898E;stroke-miterlimit:10;}
+  .st52{opacity:0.1;fill:#0A6D75;}
+  .st53{opacity:0.1;fill:#0C8270;}
+  .st54{opacity:0.1;fill:#4DB5B9;}
+  .st55{opacity:0.1;fill:#1A737C;}
+  .st56{opacity:0.3;fill:#0CA181;}
+  .st57{opacity:0.15;fill:#328488;}
+  .st58{opacity:0.14;fill:#06938E;}
+  .st59{opacity:0.17;fill:#105756;}
+svg {
+  height: 140%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -100px;
+  z-index: -58;
+}
+
+.title-block {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+}
+.title-block .title {
+  position: relative;
+  left: -50%;
+  color: #fff;
+  text-align: center;
+  font-family: 'Lato';
+  letter-spacing: 5px;
+}
+
+#top .st48,
+#top .st52,
+#top .st50 {
+  animation: drift-right-up 80s alternate;
+}
+#top .st33,
+#top .st51 {
+  animation: drift-right-up 75s alternate;
+}
+#top .st49,
+#top .st42 {
+  animation: drift-right-up 65s alternate;
+}
+
+#bottom .st11,
+#bottom .st56 {
+  animation: drift-down 70s alternate;
+}
+#bottom .st53,
+#bottom .st54 {
+  animation: drift-right 195s alternate;
+}
+#bottom .st55,
+#bottom .st36,
+#bottom .st33 {
+  animation: drift-down 115s alternate;
+}
+#bottom .st51 {
+  animation: drift-down-right 105s alternate;
+}
+
+#nearright .st40,
+#nearright .st43,
+#nearright .st33 {
+  animation: drift-right 115s;
+}
+#nearright .st41,
+#nearright .st44 {
+  animation: drift-right-up 105s;
+}
+#nearright .st42,
+#nearright .st45,
+#nearright .st46,
+#nearright .st55,
+#nearright .st47 {
+  animation: drift-right 135s;
+}
+
+#farright .st54,
+#farright .st58,
+#farright .st59 {
+  animation: drift-right 55s;
+}
+#farright .st57,
+#farright .st51 {
+  animation: drift-right-up 40s;
+}
+
+@keyframes drift-right {
+  100% {
+    transform: translate(2000px, -20px);
+  }
+}
+@keyframes drift-right-up {
+  100% {
+    transform: translate(2000px, -250px);
+  }
+}
+@keyframes drift-up {
+  100% {
+    transform: translate(10px, -1450px);
+  }
+}
+@keyframes drift-up-right {
+  100% {
+    transform: translate(175px, -1550px);
+  }
+}
+@keyframes drift-down {
+  100% {
+    transform: translate(2000px, 1220px);
+  }
+}
+@keyframes drift-down-right {
+  100% {
+    transform: translate(1450px, 320px);
+  }
+}
+
+  .wplogo:hover {
+        -webkit-transform:rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+}
+    .center{
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .wplogo{
+      height: 100px;
+      width: 100px;
+      background: url('img/wp.png');
+      background-size: 100%;
+      transition: 0.2s;
+      background-position: center;
+      margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .mybox{
+      background: white;
+      opacity: 0.75;
+        margin: auto;
+        margin-top: 5%;
+        max-width: 70%;
+        padding: 20px 50px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    }
+
+    .mybox:hover {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        animation-name: example;
+        animation-duration: 0.1s;
+        border-left: 12px solid #3CB371;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    @keyframes example {
+        0%   {border-left: 2px solid #ffffff;}
+        25%  {border-left: 3px solid #e6B3e6;}
+        50%  {border-left: 4px solid #80B380;}
+        100% {border-left: 5px solid #3CB371;}
+    }
+    .theme{
+    	margin: auto;
+    	background-color: black;
+    	opacity: 0.65;
+    	 border: 5px solid;
+    border-image-source :  linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    border-image-slice : 1;
+    	transition: 0.3s;
+    	height: auto; 
+    	width: 60%;
+    }
+    .theme:hover{
+      transform: scale(1.03);
+      
+    }
+    .theme p,li{
+    	text-align: center;
+    	color: white;
+    	
+    	font-size: 20px;
+    }
+    .theme1 {
+    	font-family: 'Righteous', cursive;
+    	
+    }
+    
